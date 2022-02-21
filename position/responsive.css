@@ -1,0 +1,40 @@
+@media (max-width:1000px) {
+    .content {
+        width: calc(100vw - 20px);
+        padding: 0 10px;
+    }
+
+    .news-card__content {
+        top: 20px;
+        right: 20px;
+        width: 80%;
+    }
+}
+
+@media (max-width:700px) {
+
+    .header {
+        padding: 40px;
+    }
+
+    .news-card__img {
+        width: 100%;
+        filter: opacity(0.5) blur(3px);
+    }
+
+    .news-card__content {
+        top: 10px;
+        right: 10px;
+        width: calc(100% - 20px);
+    }
+}
+
+@media (max-width:500px) {
+
+    .header {
+        height: 100vh;
+    }
+    .news-card__img {
+        display: none;
+    }
+}
