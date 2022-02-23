@@ -1,0 +1,41 @@
+@media (max-width:1000px) {
+
+    .content {
+        width: calc(100% - 20px);
+    }
+
+    .news-card__content {
+        width: 80%;
+        top: 24px;
+        right: 24px;
+    }
+}
+
+@media (max-width:700px) {
+
+    .header {
+        padding: 40px;
+    }
+
+    .news-card__img {
+        width: 100%;
+        filter: opacity(0.5) blur(3px);
+    }
+
+    .news-card__content {
+        top: 16px;
+        right: 16px;
+        width: calc(100% - 20px);
+    }
+}
+
+@media (max-width:500px) {
+
+    .header {
+        height: 100vh;
+    }
+
+    .news-card__img {
+        display: none;
+    }
+}
