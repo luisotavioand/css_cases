@@ -37,9 +37,7 @@ Com a determinação do position inherit o elemento filho herda a definição do
 
 ## 💻 Caso de estudo: Newsletter
 
-<img align="center" alt="Desktop" src="./illustrations/desktop.png">
-
-<img align="center" alt="Tablet" src="./illustrations/tablet.png">
+<img align="center" alt="Desktop" src="./illustrations/project.jpg">
 
 * Alerta de assinatura deve ser fixo
 * As tags de notícia devem ficar fixas assim que atingirem o topo da página.
